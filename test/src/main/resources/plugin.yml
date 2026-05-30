@@ -1,0 +1,15 @@
+name: AerAfktest
+version: 1.0.0
+main: com.aermini.afktest.AerAfktest
+author: AerMini
+api-version: 1.8.9
+description: AFK Detection Plugin
+commands:
+  afktest:
+    description: Reload the plugin configuration
+    usage: /afktest reload
+    permission: afktest.admin
+permissions:
+  afktest.admin:
+    description: Allows to reload the plugin
+    default: op

@@ -1,0 +1,15 @@
+slot: 27
+lobby:
+  slot: [11]
+  item: BED
+  name: "返回大厅"
+  lore:
+    - '&7点击返回大厅'
+  hubserver: lobby
+bedwars:
+  slot: [14]
+  item: BED
+  name: "返回起床大厅"
+  lore:
+    - '&7点击返回起床大厅'
+  hubserver: bwlobby

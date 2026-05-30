@@ -1,0 +1,15 @@
+name: AerAfklobby
+version: 1.0.0
+main: com.aermini.afklobby.AerAfklobby
+author: AerMini
+api-version: 1.8.9
+description: AFK Lobby Plugin with auto menu and player hiding
+commands:
+  afklobby:
+    description: Reload the plugin configuration
+    usage: /afklobby reload
+    permission: afklobby.admin
+permissions:
+  afklobby.admin:
+    description: Allows to reload the plugin
+    default: op
